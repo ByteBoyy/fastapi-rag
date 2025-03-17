@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+PyJWT
+passlib[bcrypt]
+qdrant-client
+langchain
+langchain_community
+openai
+PyMuPDF
+pymongo
+pytest
+pydantic[email]
+python-multipart
+oso

